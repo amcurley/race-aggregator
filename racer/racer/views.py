@@ -8,6 +8,8 @@ def scrape(requests):
     txt = resp.text
     soup = BeautifulSoup(txt, 'lxml')
 
+
+    print(txt) # before souped
     print(soup)
 scrape(requests)
 
